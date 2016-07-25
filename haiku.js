@@ -13,7 +13,7 @@ function addToObj(word,numSyllables){
                 this[numStr] = [];
             };
         this[numStr].push(word);
-    } //else {console.log('no syllalbles for: '+word)}  
+    } 
 };
 
 function countSyllables(text){
@@ -47,7 +47,7 @@ function createHaiku(arr,dict){
     }
     haiku = haikuArr.join(' ');
     return haiku;
-}
+};
 
 formatData(sourceText);
 
